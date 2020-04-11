@@ -49,15 +49,11 @@ public class Player {
         return this.storageBag;
     }
 
-    public String toString(){
-        String str = new String();
-
-        str += "Name: "+this.name+" Tokens: \n";
-
-        for (Token t:storageBag) {
-            str += t.getColor()+"-"+t.getForm()+"-"+t.getHeight()+"-"+t.getSummit()+"\n";
-        }
-
-        return str;
+    @Override
+    public String toString() {
+        return "Player{" +
+                "name='" + name + '\'' +
+                ", storageBag=" + storageBag +
+                '}';
     }
 }
