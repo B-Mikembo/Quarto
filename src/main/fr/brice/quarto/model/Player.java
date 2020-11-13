@@ -1,13 +1,12 @@
-package fr.brice.quarto.model;
+package main.fr.brice.quarto.model;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Player {
     private String name;
     private Bag bag;
 
-    public Player(String n, boolean firstPlayer) {
+    public Player(String n) {
         this.name = n;
         this.bag = new Bag();
     }
@@ -16,12 +15,12 @@ public class Player {
         return this.name;
     }
 
-    public void addTokenToBag(Token token) {
+    public void addTokenToBag(List<Token> token) {
         this.bag.addToken(token);
     }
 
-    public Token getToken(int index) {
-        return this.bag.getToken(index);
+    public Bag getBag() {
+        return this.bag;
     }
 
     public Token removeToken(int index){
