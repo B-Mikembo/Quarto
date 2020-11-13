@@ -1,4 +1,4 @@
-package model;
+package fr.brice.quarto.model;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package model;
+package fr.brice.quarto.model;
 
 public class Token {
     private Color color;
