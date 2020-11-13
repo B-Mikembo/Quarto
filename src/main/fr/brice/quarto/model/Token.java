@@ -1,4 +1,4 @@
-package fr.brice.quarto.model;
+package main.fr.brice.quarto.model;
 
 public class Token {
     private Color color;
@@ -29,13 +29,4 @@ public class Token {
         return this.form;
     }
 
-    @Override
-    public String toString() {
-        return "Token{" +
-                "color=" + color +
-                ", height=" + height +
-                ", summit=" + summit +
-                ", form=" + form +
-                '}';
-    }
 }

@@ -1,4 +1,4 @@
-package fr.brice.quarto.model;
+package main.fr.brice.quarto.model;
 
 public enum Summit {
     FULL ("Full"),
